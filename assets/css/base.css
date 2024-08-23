@@ -6,7 +6,26 @@
 }
 :root{
     --maincolor:#545BE8;
+    --footercolor:#393E46;
     --mainfont:Poppins;
     --secondfont:Inter;
     --thierdfont:Roboto;
+}
+
+ul{
+    list-style: none;
+
+}
+a{
+text-decoration: none;
+}
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
